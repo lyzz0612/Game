@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="19" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tile" tilewidth="32" tileheight="32">
+  <image source="tile.png" width="224" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="value" value="2"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="value" value="8"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="value" value="4"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="value" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="value" value="5"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="value" value="6"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="8" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="96" height="32"/>
+ </tileset>
+ <layer name="bg3" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUj+JRPCgxAO8VC0k=
+  </data>
+ </layer>
+ <layer name="bg1" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJytU0EKwDAIsx3s/0/oU7fBBBuM2tKAh5GYptqJzGh/RahoTnux3qoOte/3iLw83tYJL5J1dOLVHS8P2v9pMTfUsHqWx6secOyuu7kqs7daPCvLo7oL9C3h2dxUE3l52TCnanDvmNvycE7p/8t4NvtVqAfuasdHZJ6DtwvvbSGit7/qVYX230WvBxr0Fx0=
+  </data>
+ </layer>
+ <layer name="bg2" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQG/ATqQ6AAa8AAg=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="19" height="19">
+  <object name="pl1" x="158" y="538" width="32" height="32"/>
+  <object name="en5" x="497" y="115" width="32" height="32"/>
+  <object name="en4" x="76" y="120" width="32" height="32"/>
+  <object name="en3" x="560" y="16" width="32" height="32"/>
+  <object name="en2" x="288" y="16" width="32" height="32"/>
+  <object name="en1" x="24" y="21" width="32" height="32"/>
+  <object name="home" x="288" y="576" width="32" height="32"/>
+ </objectgroup>
+</map>
